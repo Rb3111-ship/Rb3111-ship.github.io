@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Helvetica;
+}
+
+
+
+h1{
+    background-image: url(file:///C:/Users/whp27/Desktop/DevProject/Resources/Images/pattern.webp);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    position: relative;
+    margin: 30px 4px;
+
+    
+}
+
+.blue{
+    font-weight: bold;
+    color: blue;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.brush h3{
+    background-color: mediumspringgreen;
+}
+
+.frame h3{
+    background-color: lightcoral;
+}
+
+.paint h3{
+    background-color: skyblue;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+.space{
+    padding-top: 15px ;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-image: url("file:///C:/Users/whp27/Desktop/DevProject/Resources/Images/background-3511206_1280.webp");
+    position: relative;
+    bottom: 0;
+    height: 150px;
+}
+
+button{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 25% 10%;
+    border-color: purple;
+    border-width: 5px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+    
+}
+
+button:hover{
+    transition: all 0.5s ease-in-out;
+    border-radius: 10% 25%;
+    background-color: aqua;
+}
